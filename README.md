@@ -1,7 +1,7 @@
 📊 E-commerce Sales Dashboard (Power BI)
 📌 Overview
 This Power BI Dashboard provides a deep dive into e-commerce sales performance, focusing on growth metrics, geographical distribution, and product-level analysis. The project demonstrates the ability to transform raw data into actionable insights using advanced data modeling and interactive visuals.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Business Objective
 To monitor and analyze:
 
@@ -14,14 +14,11 @@ Customer Demographics: Analyzing sales distribution across different countries.
 Operational Metrics: Monitoring total quantities, customer reach, and payment methods.
 
 📊 Key KPIs
-📦 Total Quantity: 7K
-
-💰 Total Sales: $3.0M (9.36% Growth PV_M)
-
-👥 Total Customers: 909
-
-🛒 Total Orders: 2241 (9.64% Growth PV_M)
-
+📦 Total Quantity
+💰 Total Sales
+👥 Total Customers
+🛒 Total Orders
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📈 Dashboard Components
 1️⃣ Time Intelligence Analysis
 Total Sales by Month: A bar chart showing monthly revenue trends.
@@ -37,7 +34,7 @@ Global Sales Map: Visual representation of revenue across regions like South Afr
 Sales by Payment Method: Donut chart analyzing the share of different payment IDs.
 
 Interactive Slicers: Vertical month selector for easy filtering.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎛 Interactive Filters
 Users can dynamically filter the entire dashboard by:
 
@@ -46,7 +43,7 @@ Month (Jan - Dec)
 Product Category
 
 Country/Region
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠 Tools & Techniques Used
 Power BI Desktop
 
@@ -57,7 +54,7 @@ Data Modeling: Implemented a Star Schema (Fact table connected to Dim_Product, D
 Power Query: For data cleaning and formatting.
 
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Author
 Abdallah Abdelrhman Gandour
 Data Analyst | Power BI | Excel | SQL | QA Testing
