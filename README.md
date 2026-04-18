@@ -1,5 +1,6 @@
 📊 E-commerce Sales Dashboard (Power BI)
 📌 Overview
+
 This Power BI Dashboard provides a deep dive into e-commerce sales performance, focusing on growth metrics, geographical distribution, and product-level analysis. The project demonstrates the ability to transform raw data into actionable insights using advanced data modeling and interactive visuals.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎯 Business Objective
@@ -14,12 +15,14 @@ Customer Demographics: Analyzing sales distribution across different countries.
 Operational Metrics: Monitoring total quantities, customer reach, and payment methods.
 
 📊 Key KPIs
+
 📦 Total Quantity
 💰 Total Sales
 👥 Total Customers
 🛒 Total Orders
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📈 Dashboard Components
+
 1️⃣ Time Intelligence Analysis
 Total Sales by Month: A bar chart showing monthly revenue trends.
 
@@ -36,6 +39,7 @@ Sales by Payment Method: Donut chart analyzing the share of different payment ID
 Interactive Slicers: Vertical month selector for easy filtering.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🎛 Interactive Filters
+
 Users can dynamically filter the entire dashboard by:
 
 Month (Jan - Dec)
@@ -45,6 +49,7 @@ Product Category
 Country/Region
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠 Tools & Techniques Used
+
 Power BI Desktop
 
 DAX (Data Analysis Expressions): Used for Time Intelligence (Growth calculations) and custom Measures.
@@ -56,5 +61,6 @@ Power Query: For data cleaning and formatting.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Author
+
 Abdallah Abdelrhman Gandour
 Data Analyst | Power BI | Excel | SQL | QA Testing
