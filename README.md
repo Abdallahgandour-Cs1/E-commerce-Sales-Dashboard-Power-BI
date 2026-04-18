@@ -1,32 +1,63 @@
-E-commerce Sales Analysis Dashboard (Power BI)
-📊 Project Overview
-This Power BI dashboard provides a comprehensive analysis of e-commerce sales performance. It tracks key business metrics (KPIs) like total sales, quantity sold, customer count, and month-over-month growth.
+📊 E-commerce Sales Dashboard (Power BI)
+📌 Overview
+This Power BI Dashboard provides a deep dive into e-commerce sales performance, focusing on growth metrics, geographical distribution, and product-level analysis. The project demonstrates the ability to transform raw data into actionable insights using advanced data modeling and interactive visuals.
 
-🚀 Key Features
-Interactive Time Intelligence: Filter sales by month to see dynamic growth comparisons.
+🎯 Business Objective
+To monitor and analyze:
 
-Geographical Insights: A map visualization showing sales distribution across different countries.
+Revenue Growth: Tracking Month-over-Month (MoM) performance.
 
-Product Performance: A detailed breakdown of orders and sales growth by product category (Smartphones, Laptops, etc.).
+Product Efficiency: Identifying top-performing products by sales and order volume.
 
-Payment Analysis: Breakdown of sales by different payment methods.
+Customer Demographics: Analyzing sales distribution across different countries.
 
-🛠️ Tech Stack & Skills
-Power BI Desktop: Report authoring and visualization.
+Operational Metrics: Monitoring total quantities, customer reach, and payment methods.
 
-Power Query: Data cleaning and transformation (ETL).
+📊 Key KPIs
+📦 Total Quantity: 7K
 
-DAX (Data Analysis Expressions): Created advanced measures for Time Intelligence (MoM Growth %) and dynamic KPIs.
+💰 Total Sales: $3.0M (9.36% Growth PV_M)
 
-Data Modeling: Implemented a Star Schema for optimized performance (1 Fact table connected to 5 Dimension tables).
+👥 Total Customers: 909
 
-📐 Data Model
-The project uses a clean Star Schema architecture:
+🛒 Total Orders: 2241 (9.64% Growth PV_M)
 
-Fact Table: ecommerce_data
+📈 Dashboard Components
+1️⃣ Time Intelligence Analysis
+Total Sales by Month: A bar chart showing monthly revenue trends.
 
-Dimension Tables: Dim Product, Dim Geography, Dim Date, Dim Method, and Dim Status.
+MoM Growth Indicators: Dynamic KPIs showing percentage growth compared to the previous month.
+
+2️⃣ Product & Country Deep Dive
+Product Performance Table: Detailed breakdown for (Smartphone, Headphones, Smartwatch, Laptop) including #Orders and Sales Growth.
+
+Global Sales Map: Visual representation of revenue across regions like South Africa, USA, France, and Australia.
+
+3️⃣ Payment & Status Insights
+Sales by Payment Method: Donut chart analyzing the share of different payment IDs.
+
+Interactive Slicers: Vertical month selector for easy filtering.
+
+🎛 Interactive Filters
+Users can dynamically filter the entire dashboard by:
+
+Month (Jan - Dec)
+
+Product Category
+
+Country/Region
+
+🛠 Tools & Techniques Used
+Power BI Desktop
+
+DAX (Data Analysis Expressions): Used for Time Intelligence (Growth calculations) and custom Measures.
+
+Data Modeling: Implemented a Star Schema (Fact table connected to Dim_Product, Dim_Geography, Dim_Date, etc.).
+
+Power Query: For data cleaning and formatting.
+
+
 
 🚀 Author
 Abdallah Abdelrhman Gandour
-Data Analyst | Excel | SQL | Power BI
+Data Analyst | Power BI | Excel | SQL | QA Testing
